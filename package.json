@@ -4,7 +4,7 @@
   "description": "WebSocket manager that handles spawning and maintaining a connection to the Discord gateway",
   "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "yarn build-dist",
+    "prepublishOnly": "npx rimraf dist && yarn build-dist",
     "build": "tsc",
     "build-dist": "tsc -b src",
     "test": "ava",

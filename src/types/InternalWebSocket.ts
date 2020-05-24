@@ -110,6 +110,62 @@ export const enum WebSocketEvents {
 	WebhooksUpdate = 'WEBHOOKS_UPDATE',
 }
 
+/* eslint-disable @typescript-eslint/indent */
+export interface WebSocketEventsToEmitter extends
+	Record<
+		WebSocketEvents.ChannelCreate
+		| WebSocketEvents.ChannelDelete
+		| WebSocketEvents.ChannelUpdate,
+		(packet: ChannelCreateDispatch) => void
+	>,
+	Record<
+		WebSocketEvents.GuildCreate
+		| WebSocketEvents.GuildUpdate,
+		(packet: GuildCreateDispatch) => void
+	>,
+	Record<
+		WebSocketEvents.GuildBanAdd
+		| WebSocketEvents.GuildBanRemove,
+		(packet: GuildBanAddDispatch) => void
+	>,
+	Record<
+		WebSocketEvents.GuildRoleCreate
+		| WebSocketEvents.GuildRoleUpdate,
+		(packet: GuildRoleCreateDispatch) => void
+	>
+{
+	[WebSocketEvents.Ready](packet: ReadyDispatch): void;
+	[WebSocketEvents.Resumed](packet: ResumedDispatch): void;
+	[WebSocketEvents.ChannelPinsUpdate](packet: ChannelPinsUpdateDispatch): void;
+	[WebSocketEvents.GuildDelete](packet: GuildDeleteDispatch): void;
+	[WebSocketEvents.GuildEmojisUpdate](packet: GuildEmojisUpdateDispatch): void;
+	[WebSocketEvents.GuildIntegrationsUpdate](packet: GuildIntegrationsUpdateDispatch): void;
+	[WebSocketEvents.GuildMemberAdd](packet: GuildMemberAddDispatch): void;
+	[WebSocketEvents.GuildMemberRemove](packet: GuildMemberRemoveDispatch): void;
+	[WebSocketEvents.GuildMemberUpdate](packet: GuildMemberUpdateDispatch): void;
+	[WebSocketEvents.GuildMembersChunk](packet: GuildMembersChunkDispatch): void;
+	[WebSocketEvents.GuildRoleDelete](packet: GuildRoleDeleteDispatch): void;
+	[WebSocketEvents.InviteCreate](packet: InviteCreateDispatch): void;
+	[WebSocketEvents.InviteDelete](packet: InviteDeleteDispatch): void;
+	[WebSocketEvents.MessageCreate](packet: MessageCreateDispatch): void;
+	[WebSocketEvents.MessageUpdate](packet: MessageUpdateDispatch): void;
+	[WebSocketEvents.MessageDelete](packet: MessageDeleteDispatch): void;
+	[WebSocketEvents.MessageDeleteBulk](packet: MessageDeleteBulkDispatch): void;
+	[WebSocketEvents.MessageReactionAdd](packet: MessageReactionAddDispatch): void;
+	[WebSocketEvents.MessageReactionRemove](packet: MessageReactionRemoveDispatch): void;
+	[WebSocketEvents.MessageReactionRemoveAll](packet: MessageReactionRemoveAllDispatch): void;
+	[WebSocketEvents.MessageReactionRemoveEmoji](packet: MessageReactionRemoveEmojiDispatch): void;
+	[WebSocketEvents.PresenceUpdate](packet: PresenceUpdateDispatch): void;
+	[WebSocketEvents.TypingStart](packet: TypingStartDispatch): void;
+	[WebSocketEvents.UserUpdate](packet: UserUpdateDispatch): void;
+	[WebSocketEvents.VoiceStateUpdate](packet: VoiceStateUpdateDispatch): void;
+	[WebSocketEvents.VoiceServerUpdate](packet: VoiceServerUpdateDispatch): void;
+	[WebSocketEvents.WebhooksUpdate](packet: WebhooksUpdateDispatch): void;
+	[WebSocketManagerEvents.Debug](packet: string): void;
+	[WebSocketManagerEvents.Error](packet: Error): void;
+}
+/* eslint-enable @typescript-eslint/indent */
+
 export type WSPayload = HelloPayload | Heartbeat | HeartbeatAck | InvalidSession | Reconnect | DispatchPayload;
 export type SendPayload = WSHeartbeat | Identify | PresenceUpdate | VoiceStateUpdate | Resume | RequestGuildMembers;
 
