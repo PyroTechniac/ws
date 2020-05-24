@@ -27985,7 +27985,7 @@
 						"type": "intrinsic",
 						"name": "any"
 					},
-					"defaultValue": "require('../../package.json')"
+					"defaultValue": "require('../../../package.json')"
 				},
 				{
 					"id": 117,
