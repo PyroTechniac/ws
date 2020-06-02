@@ -16,6 +16,7 @@
       "**/*{.,-}{test,spec}.ts",
       "**/__tests__/**",
       "**/node_modules/**",
-      "examples/"
+      "examples/",
+      "src/lib/Worker.ts"
     ]
   }
