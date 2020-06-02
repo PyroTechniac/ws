@@ -56,7 +56,7 @@ export class WebSocketManager extends EventEmitter {
 	 * @param api The rest api
 	 * @param shardIDs The shards to spawn
 	 */
-	public constructor(private api: REST, options: Partial<WSOptions>) {
+	public constructor(private api: REST, options: Partial<WSOptions> = {}) {
 		super();
 		this.options = mergeDefault(WSOptionsDefaults, options);
 		// eslint-disable-next-line no-process-env
