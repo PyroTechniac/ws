@@ -71,6 +71,6 @@
   "optionalDependencies": {
     "bufferutil": "^4.0.1",
     "utf-8-validate": "^5.0.2",
-    "zlib-sync": "^0.1.6"
+    "zlib-sync": "github:vladfrangu/zlib-sync#4ac536289d4d5e237f0caf11a3429a265767cdb5"
   }
 }

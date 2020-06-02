@@ -49,27 +49,48 @@ const workerData: WSWorkerData = {
 	}
 };
 
-new WebSocket.Server({ port: 8082 })
+new WebSocket.Server({
+	port: 8082,
+	perMessageDeflate: {
+		zlibDeflateOptions: {
+			// See zlib defaults.
+			chunkSize: 1024,
+			memLevel: 7,
+			level: 3
+		},
+		zlibInflateOptions: {
+			chunkSize: 10 * 1024
+		},
+		// Other options settable:
+		clientNoContextTakeover: true, // Defaults to negotiated value.
+		serverNoContextTakeover: true, // Defaults to negotiated value.
+		serverMaxWindowBits: 10, // Defaults to negotiated value.
+		// Below options specified as default values.
+		concurrencyLimit: 10, // Limits zlib concurrency for perf.
+		threshold: 1024 // Size (in bytes) below which messages
+		// should not be compressed.
+	}
+})
 	.on('connection', (ws) => {
 		ws.on('message', (message): void => {
 			const data = JSON.parse(message as string);
 
 			switch (data.op) {
 				case OpCodes.IDENTIFY: {
-					return ws.send(JSON.stringify(ready));
+					return ws.send(Buffer.from(JSON.stringify(ready)));
 				}
 				case OpCodes.HELLO: {
-					return ws.send(JSON.stringify(hello));
+					return ws.send(Buffer.from(JSON.stringify(hello)));
 				}
 				case OpCodes.HEARTBEAT: {
-					return ws.send(JSON.stringify(heartbeatAck));
+					return ws.send(Buffer.from(JSON.stringify(heartbeatAck)));
 				}
 				default: {
 					throw data;
 				}
 			}
 		});
-		ws.send(JSON.stringify(hello));
+		ws.send(Buffer.from(JSON.stringify(hello)));
 	});
 
 class MessagePortLike extends EventEmitter {
