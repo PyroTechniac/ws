@@ -92,7 +92,8 @@ const ws = new WebSocketManager(rest);
 
 ws.token = rest.token = 'Not-A-Real-Token';
 
-ava('Connect multiple shards', async (test): Promise<void> => {
+ava('Connect multiple and check aggregate ping', async (test): Promise<void> => {
 	await ws.spawn();
 	test.is(ws.shards.size, 2);
+	test.is(ws.ping, ws.shards.reduce((acc, value) => acc + value.ping, 0) / ws.shards.size);
 });

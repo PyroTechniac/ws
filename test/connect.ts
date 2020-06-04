@@ -92,7 +92,7 @@ const ws = new WebSocketManager(rest);
 
 ws.token = rest.token = 'Not-A-Real-Token';
 
-ava('Connect to the ws', async (test): Promise<void> => {
+ava('connect and ping', async (test): Promise<void> => {
 	await ws.spawn();
-	test.pass();
+	test.is(ws.ping, ws.shards.firstValue.ping);
 });
