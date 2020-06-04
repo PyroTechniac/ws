@@ -64,11 +64,11 @@ new WebSocket.Server({
 					break;
 				}
 				case OpCodes.HELLO: {
-					deflate.push(Buffer.from(JSON.stringify(ready)), Z_SYNC_FLUSH);
+					deflate.push(Buffer.from(JSON.stringify(hello)), Z_SYNC_FLUSH);
 					break;
 				}
 				case OpCodes.HEARTBEAT: {
-					deflate.push(Buffer.from(JSON.stringify(ready)), Z_SYNC_FLUSH);
+					deflate.push(Buffer.from(JSON.stringify(heartbeatAck)), Z_SYNC_FLUSH);
 					break;
 				}
 				default: {
@@ -88,11 +88,10 @@ nock(`${RestOptionsDefaults.api}/v${RestOptionsDefaults.version}`)
 	.reply(204, gatewayInfo);
 
 const rest = new REST();
-const ws = new WebSocketManager(rest);
-
-ws.token = rest.token = 'Not-A-Real-Token';
 
 ava('connect and ping', async (test): Promise<void> => {
+	const ws = new WebSocketManager(rest);
+	ws.token = rest.token = 'Not-A-Real-Token';
 	await ws.spawn();
 	test.is(ws.ping, ws.shards.firstValue.ping);
 });
