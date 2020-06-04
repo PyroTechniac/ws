@@ -2331,6 +2331,11 @@ package-json@^6.3.0:
     registry-url "^5.0.0"
     semver "^6.2.0"
 
+pako@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
+  integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
+
 parent-module@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parent-module/-/parent-module-1.0.1.tgz#691d2709e78c79fae3a156622452d00762caaaa2"
@@ -3230,7 +3235,7 @@ yargs@^15.0.2, yargs@^15.3.1:
     y18n "^4.0.0"
     yargs-parser "^18.1.1"
 
-"zlib-sync@github:vladfrangu/zlib-sync#context-aware":
+"zlib-sync@github:vladfrangu/zlib-sync#4ac536289d4d5e237f0caf11a3429a265767cdb5":
   version "0.1.6"
   resolved "https://codeload.github.com/vladfrangu/zlib-sync/tar.gz/4ac536289d4d5e237f0caf11a3429a265767cdb5"
   dependencies:

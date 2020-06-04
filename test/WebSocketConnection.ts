@@ -2,6 +2,8 @@ import ava from 'ava';
 import * as WebSocket from 'ws';
 import { WebSocketConnection, ReadyDispatch, HelloPayload, WebSocketEvents, OpCodes, HeartbeatAck, WSWorkerData, InternalActions } from '../src';
 import { EventEmitter } from 'events';
+import { Deflate } from 'pako';
+import { Z_SYNC_FLUSH } from 'zlib';
 
 /* eslint-disable @typescript-eslint/camelcase, id-length */
 
@@ -49,44 +51,38 @@ const workerData: WSWorkerData = {
 	}
 };
 
+
 new WebSocket.Server({
-	port: 8082,
-	perMessageDeflate: {
-		zlibDeflateOptions: {
-			// See zlib defaults.
-			chunkSize: 128 * 1024
-		},
-		zlibInflateOptions: {
-			chunkSize: 128 * 1024
-		},
-		// Below options specified as default values.
-		// Limits zlib concurrency for perf.
-		concurrencyLimit: 10,
-		// Size (in bytes) below which messages
-		// should not be compressed.
-		threshold: 0
-	}
+	port: 8082
 })
 	.on('connection', (ws) => {
+		const deflate = new Deflate();
+
 		ws.on('message', (message): void => {
 			const data = JSON.parse(message as string);
 
 			switch (data.op) {
 				case OpCodes.IDENTIFY: {
-					return ws.send(Buffer.from(JSON.stringify(ready)));
+					deflate.push(Buffer.from(JSON.stringify(ready)), Z_SYNC_FLUSH);
+					break;
 				}
 				case OpCodes.HELLO: {
-					return ws.send(Buffer.from(JSON.stringify(hello)));
+					deflate.push(Buffer.from(JSON.stringify(ready)), Z_SYNC_FLUSH);
+					break;
 				}
 				case OpCodes.HEARTBEAT: {
-					return ws.send(Buffer.from(JSON.stringify(heartbeatAck)));
+					deflate.push(Buffer.from(JSON.stringify(ready)), Z_SYNC_FLUSH);
+					break;
 				}
 				default: {
 					throw data;
 				}
 			}
+			ws.send(deflate.result);
 		});
-		ws.send(Buffer.from(JSON.stringify(hello)));
+
+		deflate.push(Buffer.from(JSON.stringify(hello)), Z_SYNC_FLUSH);
+		ws.send(deflate.result);
 	});
 
 class MessagePortLike extends EventEmitter {
@@ -101,6 +97,7 @@ ava.cb(InternalActions.Debug, (test): void => {
 	const port = new MessagePortLike()
 		.on('message', (data) => {
 			if (data.type === InternalActions.Debug) {
+				port.removeAllListeners();
 				test.pass();
 				test.end();
 			}
@@ -115,6 +112,7 @@ ava.cb(InternalActions.ConnectionStatusUpdate, (test): void => {
 	const port = new MessagePortLike()
 		.on('message', (data) => {
 			if (data.type === InternalActions.ConnectionStatusUpdate) {
+				port.removeAllListeners();
 				test.pass();
 				test.end();
 			}
@@ -129,6 +127,7 @@ ava.skip(InternalActions.Dispatch, (test): void => {
 	const port = new MessagePortLike()
 		.on('message', (data) => {
 			if (data.type === InternalActions.Dispatch) {
+				port.removeAllListeners();
 				test.pass();
 				// test.end();
 			}
