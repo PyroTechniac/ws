@@ -25,10 +25,10 @@
   ],
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
-    "@klasa/dapi-types": "0.2.0",
+    "@klasa/dapi-types": "0.2.1",
     "@klasa/rest": "0.4.3",
-    "@types/node": "^14.0.9",
-    "@types/ws": "^7.2.4",
+    "@types/node": "^14.0.13",
+    "@types/ws": "^7.2.5",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "ava": "^3.8.2",
@@ -39,7 +39,7 @@
     "pako": "^1.0.11",
     "source-map-support": "^0.5.16",
     "typedoc": "^0.17.7",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.5"
   },
   "repository": {
     "type": "git",
@@ -72,6 +72,6 @@
   "optionalDependencies": {
     "bufferutil": "^4.0.1",
     "utf-8-validate": "^5.0.2",
-    "zlib-sync": "github:vladfrangu/zlib-sync#4ac536289d4d5e237f0caf11a3429a265767cdb5"
+    "zlib-sync": "^0.1.7"
   }
 }
