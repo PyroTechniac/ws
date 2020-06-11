@@ -2783,7 +2783,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 53,
+									"line": 88,
 									"character": 34
 								}
 							],
@@ -2807,7 +2807,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 53,
+									"line": 88,
 									"character": 13
 								}
 							],
@@ -2831,7 +2831,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 47,
+									"line": 82,
 									"character": 7
 								}
 							],
@@ -2855,7 +2855,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 41,
+									"line": 76,
 									"character": 7
 								}
 							],
@@ -2889,7 +2889,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 59,
+									"line": 94,
 									"character": 31
 								}
 							],
@@ -2914,7 +2914,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 36,
+									"line": 71,
 									"character": 24
 								}
 							],
@@ -2946,7 +2946,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 31,
+									"line": 66,
 									"character": 23
 								}
 							],
@@ -3061,7 +3061,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 70,
+									"line": 105,
 									"character": 16
 								}
 							]
@@ -3114,7 +3114,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 78,
+									"line": 113,
 									"character": 17
 								}
 							]
@@ -3190,7 +3190,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ReadyDispatch"
+																		"id": 1233,
+																		"name": "ReadyDispatch"
 																	}
 																}
 															],
@@ -3203,8 +3204,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 293,
-															"character": 65
+															"line": 328,
+															"character": 59
 														}
 													]
 												}
@@ -3281,7 +3282,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ResumedDispatch"
+																		"id": 1245,
+																		"name": "ResumedDispatch"
 																	}
 																}
 															],
@@ -3294,8 +3296,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 294,
-															"character": 67
+															"line": 329,
+															"character": 61
 														}
 													]
 												}
@@ -3387,7 +3389,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ChannelCreateDispatch"
+																		"id": 1246,
+																		"name": "ChannelCreateDispatch"
 																	}
 																}
 															],
@@ -3400,8 +3403,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 296,
-															"character": 49
+															"line": 331,
+															"character": 43
 														}
 													]
 												}
@@ -3478,7 +3481,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ChannelPinsUpdateDispatch"
+																		"id": 1247,
+																		"name": "ChannelPinsUpdateDispatch"
 																	}
 																}
 															],
@@ -3491,8 +3495,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 297,
-															"character": 77
+															"line": 332,
+															"character": 71
 														}
 													]
 												}
@@ -3579,7 +3583,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildCreateDispatch"
+																		"id": 1252,
+																		"name": "GuildCreateDispatch"
 																	}
 																}
 															],
@@ -3592,8 +3597,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 298,
-															"character": 107
+															"line": 333,
+															"character": 95
 														}
 													]
 												}
@@ -3670,7 +3675,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildDeleteDispatch"
+																		"id": 1253,
+																		"name": "GuildDeleteDispatch"
 																	}
 																}
 															],
@@ -3683,8 +3689,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 299,
-															"character": 71
+															"line": 334,
+															"character": 65
 														}
 													]
 												}
@@ -3771,7 +3777,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildBanAddDispatch"
+																		"id": 1254,
+																		"name": "GuildBanAddDispatch"
 																	}
 																}
 															],
@@ -3784,8 +3791,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 300,
-															"character": 110
+															"line": 335,
+															"character": 98
 														}
 													]
 												}
@@ -3862,7 +3869,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildEmojisUpdateDispatch"
+																		"id": 1258,
+																		"name": "GuildEmojisUpdateDispatch"
 																	}
 																}
 															],
@@ -3875,8 +3883,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 301,
-															"character": 77
+															"line": 336,
+															"character": 71
 														}
 													]
 												}
@@ -3953,7 +3961,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildIntegrationsUpdateDispatch"
+																		"id": 1262,
+																		"name": "GuildIntegrationsUpdateDispatch"
 																	}
 																}
 															],
@@ -3966,8 +3975,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 302,
-															"character": 83
+															"line": 337,
+															"character": 77
 														}
 													]
 												}
@@ -4044,7 +4053,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberAddDispatch"
+																		"id": 1265,
+																		"name": "GuildMemberAddDispatch"
 																	}
 																}
 															],
@@ -4057,8 +4067,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 303,
-															"character": 74
+															"line": 338,
+															"character": 68
 														}
 													]
 												}
@@ -4135,7 +4145,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberRemoveDispatch"
+																		"id": 1268,
+																		"name": "GuildMemberRemoveDispatch"
 																	}
 																}
 															],
@@ -4148,8 +4159,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 304,
-															"character": 77
+															"line": 339,
+															"character": 71
 														}
 													]
 												}
@@ -4226,7 +4237,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberUpdateDispatch"
+																		"id": 1272,
+																		"name": "GuildMemberUpdateDispatch"
 																	}
 																}
 															],
@@ -4239,8 +4251,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 305,
-															"character": 77
+															"line": 340,
+															"character": 71
 														}
 													]
 												}
@@ -4317,7 +4329,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMembersChunkDispatch"
+																		"id": 1279,
+																		"name": "GuildMembersChunkDispatch"
 																	}
 																}
 															],
@@ -4330,8 +4343,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 306,
-															"character": 77
+															"line": 341,
+															"character": 71
 														}
 													]
 												}
@@ -4418,7 +4431,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildRoleCreateDispatch"
+																		"id": 1288,
+																		"name": "GuildRoleCreateDispatch"
 																	}
 																}
 															],
@@ -4431,8 +4445,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 307,
-															"character": 115
+															"line": 342,
+															"character": 103
 														}
 													]
 												}
@@ -4509,7 +4523,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildRoleDeleteDispatch"
+																		"id": 1292,
+																		"name": "GuildRoleDeleteDispatch"
 																	}
 																}
 															],
@@ -4522,8 +4537,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 308,
-															"character": 75
+															"line": 343,
+															"character": 69
 														}
 													]
 												}
@@ -4600,7 +4615,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.InviteCreateDispatch"
+																		"id": 1296,
+																		"name": "InviteCreateDispatch"
 																	}
 																}
 															],
@@ -4613,8 +4629,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 309,
-															"character": 72
+															"line": 344,
+															"character": 66
 														}
 													]
 												}
@@ -4691,7 +4707,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.InviteDeleteDispatch"
+																		"id": 1309,
+																		"name": "InviteDeleteDispatch"
 																	}
 																}
 															],
@@ -4704,8 +4721,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 310,
-															"character": 72
+															"line": 345,
+															"character": 66
 														}
 													]
 												}
@@ -4782,7 +4799,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageCreateDispatch"
+																		"id": 1314,
+																		"name": "MessageCreateDispatch"
 																	}
 																}
 															],
@@ -4795,8 +4813,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 311,
-															"character": 73
+															"line": 346,
+															"character": 67
 														}
 													]
 												}
@@ -4873,7 +4891,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageUpdateDispatch"
+																		"id": 1315,
+																		"name": "MessageUpdateDispatch"
 																	}
 																}
 															],
@@ -4886,8 +4905,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 312,
-															"character": 73
+															"line": 347,
+															"character": 67
 														}
 													]
 												}
@@ -4964,7 +4983,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageDeleteDispatch"
+																		"id": 1319,
+																		"name": "MessageDeleteDispatch"
 																	}
 																}
 															],
@@ -4977,8 +4997,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 313,
-															"character": 73
+															"line": 348,
+															"character": 67
 														}
 													]
 												}
@@ -5055,7 +5075,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageDeleteBulkDispatch"
+																		"id": 1324,
+																		"name": "MessageDeleteBulkDispatch"
 																	}
 																}
 															],
@@ -5068,8 +5089,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 314,
-															"character": 77
+															"line": 349,
+															"character": 71
 														}
 													]
 												}
@@ -5146,7 +5167,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionAddDispatch"
+																		"id": 1329,
+																		"name": "MessageReactionAddDispatch"
 																	}
 																}
 															],
@@ -5159,8 +5181,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 315,
-															"character": 78
+															"line": 350,
+															"character": 72
 														}
 													]
 												}
@@ -5237,7 +5259,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionRemoveDispatch"
+																		"id": 1330,
+																		"name": "MessageReactionRemoveDispatch"
 																	}
 																}
 															],
@@ -5250,8 +5273,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 316,
-															"character": 81
+															"line": 351,
+															"character": 75
 														}
 													]
 												}
@@ -5328,7 +5351,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionRemoveAllDispatch"
+																		"id": 1331,
+																		"name": "MessageReactionRemoveAllDispatch"
 																	}
 																}
 															],
@@ -5341,8 +5365,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 317,
-															"character": 84
+															"line": 352,
+															"character": 78
 														}
 													]
 												}
@@ -5419,7 +5443,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.PresenceUpdateDispatch"
+																		"id": 1335,
+																		"name": "PresenceUpdateDispatch"
 																	}
 																}
 															],
@@ -5432,8 +5457,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 318,
-															"character": 74
+															"line": 353,
+															"character": 68
 														}
 													]
 												}
@@ -5510,7 +5535,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.TypingStartDispatch"
+																		"id": 1336,
+																		"name": "TypingStartDispatch"
 																	}
 																}
 															],
@@ -5523,8 +5549,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 319,
-															"character": 71
+															"line": 354,
+															"character": 65
 														}
 													]
 												}
@@ -5601,7 +5627,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.UserUpdateDispatch"
+																		"id": 1343,
+																		"name": "UserUpdateDispatch"
 																	}
 																}
 															],
@@ -5614,8 +5641,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 320,
-															"character": 70
+															"line": 355,
+															"character": 64
 														}
 													]
 												}
@@ -5692,7 +5719,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.VoiceStateUpdateDispatch"
+																		"id": 1344,
+																		"name": "VoiceStateUpdateDispatch"
 																	}
 																}
 															],
@@ -5705,8 +5733,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 321,
-															"character": 76
+															"line": 356,
+															"character": 70
 														}
 													]
 												}
@@ -5783,7 +5811,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.VoiceServerUpdateDispatch"
+																		"id": 1345,
+																		"name": "VoiceServerUpdateDispatch"
 																	}
 																}
 															],
@@ -5796,8 +5825,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 322,
-															"character": 77
+															"line": 357,
+															"character": 71
 														}
 													]
 												}
@@ -5874,7 +5903,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.WebhooksUpdateDispatch"
+																		"id": 1350,
+																		"name": "WebhooksUpdateDispatch"
 																	}
 																}
 															],
@@ -5887,8 +5917,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 323,
-															"character": 74
+															"line": 358,
+															"character": 68
 														}
 													]
 												}
@@ -5978,8 +6008,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 324,
-															"character": 72
+															"line": 359,
+															"character": 66
 														}
 													]
 												}
@@ -6069,8 +6099,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 325,
-															"character": 72
+															"line": 360,
+															"character": 66
 														}
 													]
 												}
@@ -6160,7 +6190,8 @@
 																		"types": [
 																			{
 																				"type": "reference",
-																				"name": "Types.DispatchPayload"
+																				"id": 1354,
+																				"name": "DispatchPayload"
 																			},
 																			{
 																				"type": "intrinsic",
@@ -6183,8 +6214,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 326,
-															"character": 90
+															"line": 361,
+															"character": 78
 														}
 													]
 												}
@@ -6204,172 +6235,172 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 293,
+									"line": 328,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 294,
+									"line": 329,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 295,
+									"line": 330,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 297,
+									"line": 332,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 298,
+									"line": 333,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 299,
+									"line": 334,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 300,
+									"line": 335,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 301,
+									"line": 336,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 302,
+									"line": 337,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 303,
+									"line": 338,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 304,
+									"line": 339,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 305,
+									"line": 340,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 306,
+									"line": 341,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 307,
+									"line": 342,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 308,
+									"line": 343,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 309,
+									"line": 344,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 310,
+									"line": 345,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 311,
+									"line": 346,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 312,
+									"line": 347,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 313,
+									"line": 348,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 314,
+									"line": 349,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 315,
+									"line": 350,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 316,
+									"line": 351,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 317,
+									"line": 352,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 318,
+									"line": 353,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 319,
+									"line": 354,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 320,
+									"line": 355,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 321,
+									"line": 356,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 322,
+									"line": 357,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 323,
+									"line": 358,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 324,
+									"line": 359,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 325,
+									"line": 360,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 326,
+									"line": 361,
 									"character": 19
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 327,
+									"line": 362,
 									"character": 19
 								}
 							],
@@ -6426,7 +6457,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 212,
+									"line": 247,
 									"character": 14
 								}
 							]
@@ -6461,7 +6492,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 136,
+									"line": 171,
 									"character": 15
 								}
 							]
@@ -6694,7 +6725,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 188,
+									"line": 223,
 									"character": 17
 								}
 							]
@@ -6735,7 +6766,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 197,
+									"line": 232,
 									"character": 33
 								}
 							]
@@ -7071,7 +7102,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ReadyDispatch"
+																		"id": 1233,
+																		"name": "ReadyDispatch"
 																	}
 																}
 															],
@@ -7084,8 +7116,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 219,
-															"character": 56
+															"line": 254,
+															"character": 50
 														}
 													]
 												}
@@ -7162,7 +7194,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ResumedDispatch"
+																		"id": 1245,
+																		"name": "ResumedDispatch"
 																	}
 																}
 															],
@@ -7175,8 +7208,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 220,
-															"character": 58
+															"line": 255,
+															"character": 52
 														}
 													]
 												}
@@ -7268,7 +7301,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ChannelCreateDispatch"
+																		"id": 1246,
+																		"name": "ChannelCreateDispatch"
 																	}
 																}
 															],
@@ -7281,8 +7315,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 221,
-															"character": 140
+															"line": 256,
+															"character": 122
 														}
 													]
 												}
@@ -7359,7 +7393,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ChannelPinsUpdateDispatch"
+																		"id": 1247,
+																		"name": "ChannelPinsUpdateDispatch"
 																	}
 																}
 															],
@@ -7372,8 +7407,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 222,
-															"character": 68
+															"line": 257,
+															"character": 62
 														}
 													]
 												}
@@ -7460,7 +7495,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildCreateDispatch"
+																		"id": 1252,
+																		"name": "GuildCreateDispatch"
 																	}
 																}
 															],
@@ -7473,8 +7509,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 223,
-															"character": 98
+															"line": 258,
+															"character": 86
 														}
 													]
 												}
@@ -7551,7 +7587,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildDeleteDispatch"
+																		"id": 1253,
+																		"name": "GuildDeleteDispatch"
 																	}
 																}
 															],
@@ -7564,8 +7601,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 224,
-															"character": 62
+															"line": 259,
+															"character": 56
 														}
 													]
 												}
@@ -7652,7 +7689,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildBanAddDispatch"
+																		"id": 1254,
+																		"name": "GuildBanAddDispatch"
 																	}
 																}
 															],
@@ -7665,8 +7703,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 225,
-															"character": 101
+															"line": 260,
+															"character": 89
 														}
 													]
 												}
@@ -7743,7 +7781,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildEmojisUpdateDispatch"
+																		"id": 1258,
+																		"name": "GuildEmojisUpdateDispatch"
 																	}
 																}
 															],
@@ -7756,8 +7795,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 226,
-															"character": 68
+															"line": 261,
+															"character": 62
 														}
 													]
 												}
@@ -7834,7 +7873,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildIntegrationsUpdateDispatch"
+																		"id": 1262,
+																		"name": "GuildIntegrationsUpdateDispatch"
 																	}
 																}
 															],
@@ -7847,8 +7887,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 227,
-															"character": 74
+															"line": 262,
+															"character": 68
 														}
 													]
 												}
@@ -7925,7 +7965,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberAddDispatch"
+																		"id": 1265,
+																		"name": "GuildMemberAddDispatch"
 																	}
 																}
 															],
@@ -7938,8 +7979,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 228,
-															"character": 65
+															"line": 263,
+															"character": 59
 														}
 													]
 												}
@@ -8016,7 +8057,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberRemoveDispatch"
+																		"id": 1268,
+																		"name": "GuildMemberRemoveDispatch"
 																	}
 																}
 															],
@@ -8029,8 +8071,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 229,
-															"character": 68
+															"line": 264,
+															"character": 62
 														}
 													]
 												}
@@ -8107,7 +8149,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberUpdateDispatch"
+																		"id": 1272,
+																		"name": "GuildMemberUpdateDispatch"
 																	}
 																}
 															],
@@ -8120,8 +8163,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 230,
-															"character": 68
+															"line": 265,
+															"character": 62
 														}
 													]
 												}
@@ -8198,7 +8241,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMembersChunkDispatch"
+																		"id": 1279,
+																		"name": "GuildMembersChunkDispatch"
 																	}
 																}
 															],
@@ -8211,8 +8255,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 231,
-															"character": 68
+															"line": 266,
+															"character": 62
 														}
 													]
 												}
@@ -8299,7 +8343,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildRoleCreateDispatch"
+																		"id": 1288,
+																		"name": "GuildRoleCreateDispatch"
 																	}
 																}
 															],
@@ -8312,8 +8357,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 232,
-															"character": 106
+															"line": 267,
+															"character": 94
 														}
 													]
 												}
@@ -8390,7 +8435,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildRoleDeleteDispatch"
+																		"id": 1292,
+																		"name": "GuildRoleDeleteDispatch"
 																	}
 																}
 															],
@@ -8403,8 +8449,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 233,
-															"character": 66
+															"line": 268,
+															"character": 60
 														}
 													]
 												}
@@ -8481,7 +8527,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.InviteCreateDispatch"
+																		"id": 1296,
+																		"name": "InviteCreateDispatch"
 																	}
 																}
 															],
@@ -8494,8 +8541,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 234,
-															"character": 63
+															"line": 269,
+															"character": 57
 														}
 													]
 												}
@@ -8572,7 +8619,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.InviteDeleteDispatch"
+																		"id": 1309,
+																		"name": "InviteDeleteDispatch"
 																	}
 																}
 															],
@@ -8585,8 +8633,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 235,
-															"character": 63
+															"line": 270,
+															"character": 57
 														}
 													]
 												}
@@ -8663,7 +8711,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageCreateDispatch"
+																		"id": 1314,
+																		"name": "MessageCreateDispatch"
 																	}
 																}
 															],
@@ -8676,8 +8725,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 236,
-															"character": 64
+															"line": 271,
+															"character": 58
 														}
 													]
 												}
@@ -8754,7 +8803,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageUpdateDispatch"
+																		"id": 1315,
+																		"name": "MessageUpdateDispatch"
 																	}
 																}
 															],
@@ -8767,8 +8817,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 237,
-															"character": 64
+															"line": 272,
+															"character": 58
 														}
 													]
 												}
@@ -8845,7 +8895,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageDeleteDispatch"
+																		"id": 1319,
+																		"name": "MessageDeleteDispatch"
 																	}
 																}
 															],
@@ -8858,8 +8909,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 238,
-															"character": 64
+															"line": 273,
+															"character": 58
 														}
 													]
 												}
@@ -8936,7 +8987,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageDeleteBulkDispatch"
+																		"id": 1324,
+																		"name": "MessageDeleteBulkDispatch"
 																	}
 																}
 															],
@@ -8949,8 +9001,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 239,
-															"character": 68
+															"line": 274,
+															"character": 62
 														}
 													]
 												}
@@ -9027,7 +9079,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionAddDispatch"
+																		"id": 1329,
+																		"name": "MessageReactionAddDispatch"
 																	}
 																}
 															],
@@ -9040,8 +9093,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 240,
-															"character": 69
+															"line": 275,
+															"character": 63
 														}
 													]
 												}
@@ -9118,7 +9171,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionRemoveDispatch"
+																		"id": 1330,
+																		"name": "MessageReactionRemoveDispatch"
 																	}
 																}
 															],
@@ -9131,8 +9185,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 241,
-															"character": 72
+															"line": 276,
+															"character": 66
 														}
 													]
 												}
@@ -9209,7 +9263,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionRemoveAllDispatch"
+																		"id": 1331,
+																		"name": "MessageReactionRemoveAllDispatch"
 																	}
 																}
 															],
@@ -9222,8 +9277,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 242,
-															"character": 75
+															"line": 277,
+															"character": 69
 														}
 													]
 												}
@@ -9300,7 +9355,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.PresenceUpdateDispatch"
+																		"id": 1335,
+																		"name": "PresenceUpdateDispatch"
 																	}
 																}
 															],
@@ -9313,8 +9369,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 243,
-															"character": 65
+															"line": 278,
+															"character": 59
 														}
 													]
 												}
@@ -9391,7 +9447,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.TypingStartDispatch"
+																		"id": 1336,
+																		"name": "TypingStartDispatch"
 																	}
 																}
 															],
@@ -9404,8 +9461,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 244,
-															"character": 62
+															"line": 279,
+															"character": 56
 														}
 													]
 												}
@@ -9482,7 +9539,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.UserUpdateDispatch"
+																		"id": 1343,
+																		"name": "UserUpdateDispatch"
 																	}
 																}
 															],
@@ -9495,8 +9553,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 245,
-															"character": 61
+															"line": 280,
+															"character": 55
 														}
 													]
 												}
@@ -9573,7 +9631,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.VoiceStateUpdateDispatch"
+																		"id": 1344,
+																		"name": "VoiceStateUpdateDispatch"
 																	}
 																}
 															],
@@ -9586,8 +9645,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 246,
-															"character": 67
+															"line": 281,
+															"character": 61
 														}
 													]
 												}
@@ -9664,7 +9723,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.VoiceServerUpdateDispatch"
+																		"id": 1345,
+																		"name": "VoiceServerUpdateDispatch"
 																	}
 																}
 															],
@@ -9677,8 +9737,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 247,
-															"character": 68
+															"line": 282,
+															"character": 62
 														}
 													]
 												}
@@ -9755,7 +9815,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.WebhooksUpdateDispatch"
+																		"id": 1350,
+																		"name": "WebhooksUpdateDispatch"
 																	}
 																}
 															],
@@ -9768,8 +9829,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 248,
-															"character": 65
+															"line": 283,
+															"character": 59
 														}
 													]
 												}
@@ -9859,8 +9920,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 249,
-															"character": 63
+															"line": 284,
+															"character": 57
 														}
 													]
 												}
@@ -9950,8 +10011,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 250,
-															"character": 63
+															"line": 285,
+															"character": 57
 														}
 													]
 												}
@@ -10041,7 +10102,8 @@
 																		"types": [
 																			{
 																				"type": "reference",
-																				"name": "Types.DispatchPayload"
+																				"id": 1354,
+																				"name": "DispatchPayload"
 																			},
 																			{
 																				"type": "intrinsic",
@@ -10064,8 +10126,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 251,
-															"character": 81
+															"line": 286,
+															"character": 69
 														}
 													]
 												}
@@ -10085,172 +10147,172 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 219,
+									"line": 254,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 220,
+									"line": 255,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 221,
+									"line": 256,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 222,
+									"line": 257,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 223,
+									"line": 258,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 224,
+									"line": 259,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 225,
+									"line": 260,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 226,
+									"line": 261,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 227,
+									"line": 262,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 228,
+									"line": 263,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 229,
+									"line": 264,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 230,
+									"line": 265,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 231,
+									"line": 266,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 232,
+									"line": 267,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 233,
+									"line": 268,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 234,
+									"line": 269,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 235,
+									"line": 270,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 236,
+									"line": 271,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 237,
+									"line": 272,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 238,
+									"line": 273,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 239,
+									"line": 274,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 240,
+									"line": 275,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 241,
+									"line": 276,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 242,
+									"line": 277,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 243,
+									"line": 278,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 244,
+									"line": 279,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 245,
+									"line": 280,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 246,
+									"line": 281,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 247,
+									"line": 282,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 248,
+									"line": 283,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 249,
+									"line": 284,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 250,
+									"line": 285,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 251,
+									"line": 286,
 									"character": 10
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 252,
+									"line": 287,
 									"character": 10
 								}
 							],
@@ -10330,7 +10392,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ReadyDispatch"
+																		"id": 1233,
+																		"name": "ReadyDispatch"
 																	}
 																}
 															],
@@ -10343,8 +10406,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 256,
-															"character": 58
+															"line": 291,
+															"character": 52
 														}
 													]
 												}
@@ -10421,7 +10484,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ResumedDispatch"
+																		"id": 1245,
+																		"name": "ResumedDispatch"
 																	}
 																}
 															],
@@ -10434,8 +10498,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 257,
-															"character": 60
+															"line": 292,
+															"character": 54
 														}
 													]
 												}
@@ -10527,7 +10591,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ChannelCreateDispatch"
+																		"id": 1246,
+																		"name": "ChannelCreateDispatch"
 																	}
 																}
 															],
@@ -10540,8 +10605,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 258,
-															"character": 142
+															"line": 293,
+															"character": 124
 														}
 													]
 												}
@@ -10618,7 +10683,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ChannelPinsUpdateDispatch"
+																		"id": 1247,
+																		"name": "ChannelPinsUpdateDispatch"
 																	}
 																}
 															],
@@ -10631,8 +10697,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 259,
-															"character": 70
+															"line": 294,
+															"character": 64
 														}
 													]
 												}
@@ -10719,7 +10785,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildCreateDispatch"
+																		"id": 1252,
+																		"name": "GuildCreateDispatch"
 																	}
 																}
 															],
@@ -10732,8 +10799,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 260,
-															"character": 100
+															"line": 295,
+															"character": 88
 														}
 													]
 												}
@@ -10810,7 +10877,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildDeleteDispatch"
+																		"id": 1253,
+																		"name": "GuildDeleteDispatch"
 																	}
 																}
 															],
@@ -10823,8 +10891,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 261,
-															"character": 64
+															"line": 296,
+															"character": 58
 														}
 													]
 												}
@@ -10911,7 +10979,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildBanAddDispatch"
+																		"id": 1254,
+																		"name": "GuildBanAddDispatch"
 																	}
 																}
 															],
@@ -10924,8 +10993,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 262,
-															"character": 103
+															"line": 297,
+															"character": 91
 														}
 													]
 												}
@@ -11002,7 +11071,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildEmojisUpdateDispatch"
+																		"id": 1258,
+																		"name": "GuildEmojisUpdateDispatch"
 																	}
 																}
 															],
@@ -11015,8 +11085,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 263,
-															"character": 70
+															"line": 298,
+															"character": 64
 														}
 													]
 												}
@@ -11093,7 +11163,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildIntegrationsUpdateDispatch"
+																		"id": 1262,
+																		"name": "GuildIntegrationsUpdateDispatch"
 																	}
 																}
 															],
@@ -11106,8 +11177,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 264,
-															"character": 76
+															"line": 299,
+															"character": 70
 														}
 													]
 												}
@@ -11184,7 +11255,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberAddDispatch"
+																		"id": 1265,
+																		"name": "GuildMemberAddDispatch"
 																	}
 																}
 															],
@@ -11197,8 +11269,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 265,
-															"character": 67
+															"line": 300,
+															"character": 61
 														}
 													]
 												}
@@ -11275,7 +11347,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberRemoveDispatch"
+																		"id": 1268,
+																		"name": "GuildMemberRemoveDispatch"
 																	}
 																}
 															],
@@ -11288,8 +11361,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 266,
-															"character": 70
+															"line": 301,
+															"character": 64
 														}
 													]
 												}
@@ -11366,7 +11439,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberUpdateDispatch"
+																		"id": 1272,
+																		"name": "GuildMemberUpdateDispatch"
 																	}
 																}
 															],
@@ -11379,8 +11453,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 267,
-															"character": 70
+															"line": 302,
+															"character": 64
 														}
 													]
 												}
@@ -11457,7 +11531,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMembersChunkDispatch"
+																		"id": 1279,
+																		"name": "GuildMembersChunkDispatch"
 																	}
 																}
 															],
@@ -11470,8 +11545,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 268,
-															"character": 70
+															"line": 303,
+															"character": 64
 														}
 													]
 												}
@@ -11558,7 +11633,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildRoleCreateDispatch"
+																		"id": 1288,
+																		"name": "GuildRoleCreateDispatch"
 																	}
 																}
 															],
@@ -11571,8 +11647,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 269,
-															"character": 108
+															"line": 304,
+															"character": 96
 														}
 													]
 												}
@@ -11649,7 +11725,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildRoleDeleteDispatch"
+																		"id": 1292,
+																		"name": "GuildRoleDeleteDispatch"
 																	}
 																}
 															],
@@ -11662,8 +11739,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 270,
-															"character": 68
+															"line": 305,
+															"character": 62
 														}
 													]
 												}
@@ -11740,7 +11817,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.InviteCreateDispatch"
+																		"id": 1296,
+																		"name": "InviteCreateDispatch"
 																	}
 																}
 															],
@@ -11753,8 +11831,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 271,
-															"character": 65
+															"line": 306,
+															"character": 59
 														}
 													]
 												}
@@ -11831,7 +11909,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.InviteDeleteDispatch"
+																		"id": 1309,
+																		"name": "InviteDeleteDispatch"
 																	}
 																}
 															],
@@ -11844,8 +11923,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 272,
-															"character": 65
+															"line": 307,
+															"character": 59
 														}
 													]
 												}
@@ -11922,7 +12001,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageCreateDispatch"
+																		"id": 1314,
+																		"name": "MessageCreateDispatch"
 																	}
 																}
 															],
@@ -11935,8 +12015,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 273,
-															"character": 66
+															"line": 308,
+															"character": 60
 														}
 													]
 												}
@@ -12013,7 +12093,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageUpdateDispatch"
+																		"id": 1315,
+																		"name": "MessageUpdateDispatch"
 																	}
 																}
 															],
@@ -12026,8 +12107,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 274,
-															"character": 66
+															"line": 309,
+															"character": 60
 														}
 													]
 												}
@@ -12104,7 +12185,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageDeleteDispatch"
+																		"id": 1319,
+																		"name": "MessageDeleteDispatch"
 																	}
 																}
 															],
@@ -12117,8 +12199,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 275,
-															"character": 66
+															"line": 310,
+															"character": 60
 														}
 													]
 												}
@@ -12195,7 +12277,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageDeleteBulkDispatch"
+																		"id": 1324,
+																		"name": "MessageDeleteBulkDispatch"
 																	}
 																}
 															],
@@ -12208,8 +12291,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 276,
-															"character": 70
+															"line": 311,
+															"character": 64
 														}
 													]
 												}
@@ -12286,7 +12369,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionAddDispatch"
+																		"id": 1329,
+																		"name": "MessageReactionAddDispatch"
 																	}
 																}
 															],
@@ -12299,8 +12383,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 277,
-															"character": 71
+															"line": 312,
+															"character": 65
 														}
 													]
 												}
@@ -12377,7 +12461,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionRemoveDispatch"
+																		"id": 1330,
+																		"name": "MessageReactionRemoveDispatch"
 																	}
 																}
 															],
@@ -12390,8 +12475,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 278,
-															"character": 74
+															"line": 313,
+															"character": 68
 														}
 													]
 												}
@@ -12468,7 +12553,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionRemoveAllDispatch"
+																		"id": 1331,
+																		"name": "MessageReactionRemoveAllDispatch"
 																	}
 																}
 															],
@@ -12481,8 +12567,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 279,
-															"character": 77
+															"line": 314,
+															"character": 71
 														}
 													]
 												}
@@ -12559,7 +12645,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.PresenceUpdateDispatch"
+																		"id": 1335,
+																		"name": "PresenceUpdateDispatch"
 																	}
 																}
 															],
@@ -12572,8 +12659,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 280,
-															"character": 67
+															"line": 315,
+															"character": 61
 														}
 													]
 												}
@@ -12650,7 +12737,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.TypingStartDispatch"
+																		"id": 1336,
+																		"name": "TypingStartDispatch"
 																	}
 																}
 															],
@@ -12663,8 +12751,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 281,
-															"character": 64
+															"line": 316,
+															"character": 58
 														}
 													]
 												}
@@ -12741,7 +12829,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.UserUpdateDispatch"
+																		"id": 1343,
+																		"name": "UserUpdateDispatch"
 																	}
 																}
 															],
@@ -12754,8 +12843,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 282,
-															"character": 63
+															"line": 317,
+															"character": 57
 														}
 													]
 												}
@@ -12832,7 +12921,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.VoiceStateUpdateDispatch"
+																		"id": 1344,
+																		"name": "VoiceStateUpdateDispatch"
 																	}
 																}
 															],
@@ -12845,8 +12935,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 283,
-															"character": 69
+															"line": 318,
+															"character": 63
 														}
 													]
 												}
@@ -12923,7 +13013,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.VoiceServerUpdateDispatch"
+																		"id": 1345,
+																		"name": "VoiceServerUpdateDispatch"
 																	}
 																}
 															],
@@ -12936,8 +13027,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 284,
-															"character": 70
+															"line": 319,
+															"character": 64
 														}
 													]
 												}
@@ -13014,7 +13105,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.WebhooksUpdateDispatch"
+																		"id": 1350,
+																		"name": "WebhooksUpdateDispatch"
 																	}
 																}
 															],
@@ -13027,8 +13119,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 285,
-															"character": 67
+															"line": 320,
+															"character": 61
 														}
 													]
 												}
@@ -13118,8 +13210,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 286,
-															"character": 65
+															"line": 321,
+															"character": 59
 														}
 													]
 												}
@@ -13209,8 +13301,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 287,
-															"character": 65
+															"line": 322,
+															"character": 59
 														}
 													]
 												}
@@ -13300,7 +13392,8 @@
 																		"types": [
 																			{
 																				"type": "reference",
-																				"name": "Types.DispatchPayload"
+																				"id": 1354,
+																				"name": "DispatchPayload"
 																			},
 																			{
 																				"type": "intrinsic",
@@ -13323,8 +13416,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 288,
-															"character": 83
+															"line": 323,
+															"character": 71
 														}
 													]
 												}
@@ -13344,172 +13437,172 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 256,
+									"line": 291,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 257,
+									"line": 292,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 258,
+									"line": 293,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 259,
+									"line": 294,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 260,
+									"line": 295,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 261,
+									"line": 296,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 262,
+									"line": 297,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 263,
+									"line": 298,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 264,
+									"line": 299,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 265,
+									"line": 300,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 266,
+									"line": 301,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 267,
+									"line": 302,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 268,
+									"line": 303,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 269,
+									"line": 304,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 270,
+									"line": 305,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 271,
+									"line": 306,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 272,
+									"line": 307,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 273,
+									"line": 308,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 274,
+									"line": 309,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 275,
+									"line": 310,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 276,
+									"line": 311,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 277,
+									"line": 312,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 278,
+									"line": 313,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 279,
+									"line": 314,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 280,
+									"line": 315,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 281,
+									"line": 316,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 282,
+									"line": 317,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 283,
+									"line": 318,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 284,
+									"line": 319,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 285,
+									"line": 320,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 286,
+									"line": 321,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 287,
+									"line": 322,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 288,
+									"line": 323,
 									"character": 12
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 289,
+									"line": 324,
 									"character": 12
 								}
 							],
@@ -13826,7 +13919,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 153,
+									"line": 188,
 									"character": 25
 								}
 							]
@@ -14036,7 +14129,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ReadyDispatch"
+																		"id": 1233,
+																		"name": "ReadyDispatch"
 																	}
 																}
 															],
@@ -14049,8 +14143,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 331,
-															"character": 68
+															"line": 366,
+															"character": 62
 														}
 													]
 												}
@@ -14127,7 +14221,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ResumedDispatch"
+																		"id": 1245,
+																		"name": "ResumedDispatch"
 																	}
 																}
 															],
@@ -14140,8 +14235,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 332,
-															"character": 70
+															"line": 367,
+															"character": 64
 														}
 													]
 												}
@@ -14233,7 +14328,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ChannelCreateDispatch"
+																		"id": 1246,
+																		"name": "ChannelCreateDispatch"
 																	}
 																}
 															],
@@ -14246,8 +14342,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 334,
-															"character": 49
+															"line": 369,
+															"character": 43
 														}
 													]
 												}
@@ -14324,7 +14420,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.ChannelPinsUpdateDispatch"
+																		"id": 1247,
+																		"name": "ChannelPinsUpdateDispatch"
 																	}
 																}
 															],
@@ -14337,8 +14434,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 335,
-															"character": 80
+															"line": 370,
+															"character": 74
 														}
 													]
 												}
@@ -14425,7 +14522,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildCreateDispatch"
+																		"id": 1252,
+																		"name": "GuildCreateDispatch"
 																	}
 																}
 															],
@@ -14438,8 +14536,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 336,
-															"character": 110
+															"line": 371,
+															"character": 98
 														}
 													]
 												}
@@ -14516,7 +14614,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildDeleteDispatch"
+																		"id": 1253,
+																		"name": "GuildDeleteDispatch"
 																	}
 																}
 															],
@@ -14529,8 +14628,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 337,
-															"character": 74
+															"line": 372,
+															"character": 68
 														}
 													]
 												}
@@ -14617,7 +14716,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildBanAddDispatch"
+																		"id": 1254,
+																		"name": "GuildBanAddDispatch"
 																	}
 																}
 															],
@@ -14630,8 +14730,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 338,
-															"character": 113
+															"line": 373,
+															"character": 101
 														}
 													]
 												}
@@ -14708,7 +14808,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildEmojisUpdateDispatch"
+																		"id": 1258,
+																		"name": "GuildEmojisUpdateDispatch"
 																	}
 																}
 															],
@@ -14721,8 +14822,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 339,
-															"character": 80
+															"line": 374,
+															"character": 74
 														}
 													]
 												}
@@ -14799,7 +14900,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildIntegrationsUpdateDispatch"
+																		"id": 1262,
+																		"name": "GuildIntegrationsUpdateDispatch"
 																	}
 																}
 															],
@@ -14812,8 +14914,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 340,
-															"character": 86
+															"line": 375,
+															"character": 80
 														}
 													]
 												}
@@ -14890,7 +14992,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberAddDispatch"
+																		"id": 1265,
+																		"name": "GuildMemberAddDispatch"
 																	}
 																}
 															],
@@ -14903,8 +15006,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 341,
-															"character": 77
+															"line": 376,
+															"character": 71
 														}
 													]
 												}
@@ -14981,7 +15084,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberRemoveDispatch"
+																		"id": 1268,
+																		"name": "GuildMemberRemoveDispatch"
 																	}
 																}
 															],
@@ -14994,8 +15098,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 342,
-															"character": 80
+															"line": 377,
+															"character": 74
 														}
 													]
 												}
@@ -15072,7 +15176,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMemberUpdateDispatch"
+																		"id": 1272,
+																		"name": "GuildMemberUpdateDispatch"
 																	}
 																}
 															],
@@ -15085,8 +15190,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 343,
-															"character": 80
+															"line": 378,
+															"character": 74
 														}
 													]
 												}
@@ -15163,7 +15268,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildMembersChunkDispatch"
+																		"id": 1279,
+																		"name": "GuildMembersChunkDispatch"
 																	}
 																}
 															],
@@ -15176,8 +15282,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 344,
-															"character": 80
+															"line": 379,
+															"character": 74
 														}
 													]
 												}
@@ -15264,7 +15370,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildRoleCreateDispatch"
+																		"id": 1288,
+																		"name": "GuildRoleCreateDispatch"
 																	}
 																}
 															],
@@ -15277,8 +15384,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 345,
-															"character": 118
+															"line": 380,
+															"character": 106
 														}
 													]
 												}
@@ -15355,7 +15462,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.GuildRoleDeleteDispatch"
+																		"id": 1292,
+																		"name": "GuildRoleDeleteDispatch"
 																	}
 																}
 															],
@@ -15368,8 +15476,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 346,
-															"character": 78
+															"line": 381,
+															"character": 72
 														}
 													]
 												}
@@ -15446,7 +15554,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.InviteCreateDispatch"
+																		"id": 1296,
+																		"name": "InviteCreateDispatch"
 																	}
 																}
 															],
@@ -15459,8 +15568,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 347,
-															"character": 75
+															"line": 382,
+															"character": 69
 														}
 													]
 												}
@@ -15537,7 +15646,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.InviteDeleteDispatch"
+																		"id": 1309,
+																		"name": "InviteDeleteDispatch"
 																	}
 																}
 															],
@@ -15550,8 +15660,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 348,
-															"character": 75
+															"line": 383,
+															"character": 69
 														}
 													]
 												}
@@ -15628,7 +15738,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageCreateDispatch"
+																		"id": 1314,
+																		"name": "MessageCreateDispatch"
 																	}
 																}
 															],
@@ -15641,8 +15752,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 349,
-															"character": 76
+															"line": 384,
+															"character": 70
 														}
 													]
 												}
@@ -15719,7 +15830,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageUpdateDispatch"
+																		"id": 1315,
+																		"name": "MessageUpdateDispatch"
 																	}
 																}
 															],
@@ -15732,8 +15844,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 350,
-															"character": 76
+															"line": 385,
+															"character": 70
 														}
 													]
 												}
@@ -15810,7 +15922,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageDeleteDispatch"
+																		"id": 1319,
+																		"name": "MessageDeleteDispatch"
 																	}
 																}
 															],
@@ -15823,8 +15936,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 351,
-															"character": 76
+															"line": 386,
+															"character": 70
 														}
 													]
 												}
@@ -15901,7 +16014,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageDeleteBulkDispatch"
+																		"id": 1324,
+																		"name": "MessageDeleteBulkDispatch"
 																	}
 																}
 															],
@@ -15914,8 +16028,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 352,
-															"character": 80
+															"line": 387,
+															"character": 74
 														}
 													]
 												}
@@ -15992,7 +16106,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionAddDispatch"
+																		"id": 1329,
+																		"name": "MessageReactionAddDispatch"
 																	}
 																}
 															],
@@ -16005,8 +16120,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 353,
-															"character": 81
+															"line": 388,
+															"character": 75
 														}
 													]
 												}
@@ -16083,7 +16198,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionRemoveDispatch"
+																		"id": 1330,
+																		"name": "MessageReactionRemoveDispatch"
 																	}
 																}
 															],
@@ -16096,8 +16212,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 354,
-															"character": 84
+															"line": 389,
+															"character": 78
 														}
 													]
 												}
@@ -16174,7 +16290,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.MessageReactionRemoveAllDispatch"
+																		"id": 1331,
+																		"name": "MessageReactionRemoveAllDispatch"
 																	}
 																}
 															],
@@ -16187,8 +16304,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 355,
-															"character": 87
+															"line": 390,
+															"character": 81
 														}
 													]
 												}
@@ -16265,7 +16382,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.PresenceUpdateDispatch"
+																		"id": 1335,
+																		"name": "PresenceUpdateDispatch"
 																	}
 																}
 															],
@@ -16278,8 +16396,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 356,
-															"character": 77
+															"line": 391,
+															"character": 71
 														}
 													]
 												}
@@ -16356,7 +16474,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.TypingStartDispatch"
+																		"id": 1336,
+																		"name": "TypingStartDispatch"
 																	}
 																}
 															],
@@ -16369,8 +16488,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 357,
-															"character": 74
+															"line": 392,
+															"character": 68
 														}
 													]
 												}
@@ -16447,7 +16566,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.UserUpdateDispatch"
+																		"id": 1343,
+																		"name": "UserUpdateDispatch"
 																	}
 																}
 															],
@@ -16460,8 +16580,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 358,
-															"character": 73
+															"line": 393,
+															"character": 67
 														}
 													]
 												}
@@ -16538,7 +16658,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.VoiceStateUpdateDispatch"
+																		"id": 1344,
+																		"name": "VoiceStateUpdateDispatch"
 																	}
 																}
 															],
@@ -16551,8 +16672,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 359,
-															"character": 79
+															"line": 394,
+															"character": 73
 														}
 													]
 												}
@@ -16629,7 +16750,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.VoiceServerUpdateDispatch"
+																		"id": 1345,
+																		"name": "VoiceServerUpdateDispatch"
 																	}
 																}
 															],
@@ -16642,8 +16764,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 360,
-															"character": 80
+															"line": 395,
+															"character": 74
 														}
 													]
 												}
@@ -16720,7 +16842,8 @@
 																	},
 																	"type": {
 																		"type": "reference",
-																		"name": "Types.WebhooksUpdateDispatch"
+																		"id": 1350,
+																		"name": "WebhooksUpdateDispatch"
 																	}
 																}
 															],
@@ -16733,8 +16856,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 361,
-															"character": 77
+															"line": 396,
+															"character": 71
 														}
 													]
 												}
@@ -16824,8 +16947,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 362,
-															"character": 75
+															"line": 397,
+															"character": 69
 														}
 													]
 												}
@@ -16915,8 +17038,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 363,
-															"character": 75
+															"line": 398,
+															"character": 69
 														}
 													]
 												}
@@ -17006,7 +17129,8 @@
 																		"types": [
 																			{
 																				"type": "reference",
-																				"name": "Types.DispatchPayload"
+																				"id": 1354,
+																				"name": "DispatchPayload"
 																			},
 																			{
 																				"type": "intrinsic",
@@ -17029,8 +17153,8 @@
 													"sources": [
 														{
 															"fileName": "src/lib/WebSocketManager.ts",
-															"line": 364,
-															"character": 93
+															"line": 399,
+															"character": 81
 														}
 													]
 												}
@@ -17050,172 +17174,172 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 331,
+									"line": 366,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 332,
+									"line": 367,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 333,
+									"line": 368,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 335,
+									"line": 370,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 336,
+									"line": 371,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 337,
+									"line": 372,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 338,
+									"line": 373,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 339,
+									"line": 374,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 340,
+									"line": 375,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 341,
+									"line": 376,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 342,
+									"line": 377,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 343,
+									"line": 378,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 344,
+									"line": 379,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 345,
+									"line": 380,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 346,
+									"line": 381,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 347,
+									"line": 382,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 348,
+									"line": 383,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 349,
+									"line": 384,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 350,
+									"line": 385,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 351,
+									"line": 386,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 352,
+									"line": 387,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 353,
+									"line": 388,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 354,
+									"line": 389,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 355,
+									"line": 390,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 356,
+									"line": 391,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 357,
+									"line": 392,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 358,
+									"line": 393,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 359,
+									"line": 394,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 360,
+									"line": 395,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 361,
+									"line": 396,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 362,
+									"line": 397,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 363,
+									"line": 398,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 364,
+									"line": 399,
 									"character": 22
 								},
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 365,
+									"line": 400,
 									"character": 22
 								}
 							],
@@ -17273,7 +17397,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 129,
+									"line": 164,
 									"character": 24
 								}
 							]
@@ -17327,7 +17451,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 144,
+									"line": 179,
 									"character": 28
 								}
 							]
@@ -17424,7 +17548,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 85,
+									"line": 120,
 									"character": 19
 								}
 							]
@@ -17581,7 +17705,7 @@
 					"sources": [
 						{
 							"fileName": "src/lib/WebSocketManager.ts",
-							"line": 26,
+							"line": 61,
 							"character": 29
 						}
 					],
@@ -17612,7 +17736,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 19,
+									"line": 54,
 									"character": 18
 								}
 							],
@@ -17642,7 +17766,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 20,
+									"line": 55,
 									"character": 15
 								}
 							],
@@ -17662,7 +17786,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 18,
+									"line": 53,
 									"character": 8
 								}
 							],
@@ -17683,7 +17807,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 16,
+									"line": 51,
 									"character": 7
 								}
 							],
@@ -17719,7 +17843,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 17,
+									"line": 52,
 									"character": 12
 								}
 							],
@@ -17754,7 +17878,7 @@
 					"sources": [
 						{
 							"fileName": "src/lib/WebSocketManager.ts",
-							"line": 15,
+							"line": 50,
 							"character": 26
 						}
 					]
@@ -18987,7 +19111,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 601,
+									"line": 600,
 									"character": 15
 								}
 							]
@@ -19003,7 +19127,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 600,
+									"line": 599,
 									"character": 6
 								}
 							]
@@ -19022,7 +19146,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 599,
+							"line": 598,
 							"character": 31
 						}
 					]
@@ -19047,7 +19171,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 35,
+									"line": 34,
 									"character": 16
 								}
 							],
@@ -19064,7 +19188,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 36,
+									"line": 35,
 									"character": 23
 								}
 							],
@@ -19081,7 +19205,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 28,
+									"line": 27,
 									"character": 6
 								}
 							],
@@ -19098,7 +19222,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 30,
+									"line": 29,
 									"character": 8
 								}
 							],
@@ -19115,7 +19239,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 29,
+									"line": 28,
 									"character": 9
 								}
 							],
@@ -19132,7 +19256,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 39,
+									"line": 38,
 									"character": 17
 								}
 							],
@@ -19149,7 +19273,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 34,
+									"line": 33,
 									"character": 14
 								}
 							],
@@ -19166,7 +19290,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 31,
+									"line": 30,
 									"character": 9
 								}
 							],
@@ -19183,7 +19307,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 37,
+									"line": 36,
 									"character": 16
 								}
 							],
@@ -19200,7 +19324,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 38,
+									"line": 37,
 									"character": 10
 								}
 							],
@@ -19217,7 +19341,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 33,
+									"line": 32,
 									"character": 17
 								}
 							],
@@ -19234,7 +19358,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 32,
+									"line": 31,
 									"character": 11
 								}
 							],
@@ -19264,7 +19388,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 27,
+							"line": 26,
 							"character": 33
 						}
 					]
@@ -19289,7 +19413,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 61,
+									"line": 60,
 									"character": 9
 								}
 							],
@@ -19306,7 +19430,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 62,
+									"line": 61,
 									"character": 10
 								}
 							],
@@ -19323,7 +19447,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 71,
+									"line": 70,
 									"character": 14
 								}
 							],
@@ -19340,7 +19464,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 70,
+									"line": 69,
 									"character": 6
 								}
 							],
@@ -19357,7 +19481,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 63,
+									"line": 62,
 									"character": 9
 								}
 							],
@@ -19374,7 +19498,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 69,
+									"line": 68,
 									"character": 16
 								}
 							],
@@ -19391,7 +19515,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 67,
+									"line": 66,
 									"character": 10
 								}
 							],
@@ -19408,7 +19532,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 68,
+									"line": 67,
 									"character": 22
 								}
 							],
@@ -19425,7 +19549,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 66,
+									"line": 65,
 									"character": 7
 								}
 							],
@@ -19442,7 +19566,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 64,
+									"line": 63,
 									"character": 14
 								}
 							],
@@ -19459,7 +19583,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 65,
+									"line": 64,
 									"character": 19
 								}
 							],
@@ -19488,7 +19612,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 60,
+							"line": 59,
 							"character": 25
 						}
 					]
@@ -19513,7 +19637,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 48,
+									"line": 47,
 									"character": 21
 								}
 							]
@@ -19529,7 +19653,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 47,
+									"line": 46,
 									"character": 21
 								}
 							]
@@ -19545,7 +19669,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 45,
+									"line": 44,
 									"character": 12
 								}
 							]
@@ -19561,7 +19685,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 56,
+									"line": 55,
 									"character": 18
 								}
 							]
@@ -19577,7 +19701,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 55,
+									"line": 54,
 									"character": 15
 								}
 							]
@@ -19593,7 +19717,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 49,
+									"line": 48,
 									"character": 11
 								}
 							],
@@ -19610,7 +19734,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 52,
+									"line": 51,
 									"character": 13
 								}
 							]
@@ -19626,7 +19750,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 54,
+									"line": 53,
 									"character": 15
 								}
 							]
@@ -19642,7 +19766,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 46,
+									"line": 45,
 									"character": 17
 								}
 							]
@@ -19658,7 +19782,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 50,
+									"line": 49,
 									"character": 12
 								}
 							]
@@ -19674,7 +19798,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 57,
+									"line": 56,
 									"character": 19
 								}
 							],
@@ -19691,7 +19815,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 51,
+									"line": 50,
 									"character": 15
 								}
 							]
@@ -19707,7 +19831,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 53,
+									"line": 52,
 									"character": 17
 								}
 							]
@@ -19723,7 +19847,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 43,
+									"line": 42,
 									"character": 13
 								}
 							],
@@ -19740,7 +19864,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 44,
+									"line": 43,
 									"character": 14
 								}
 							]
@@ -19772,7 +19896,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 42,
+							"line": 41,
 							"character": 30
 						}
 					]
@@ -19797,7 +19921,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 77,
+									"line": 76,
 									"character": 14
 								}
 							],
@@ -19814,7 +19938,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 79,
+									"line": 78,
 									"character": 14
 								}
 							],
@@ -19831,7 +19955,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 80,
+									"line": 79,
 									"character": 18
 								}
 							],
@@ -19848,7 +19972,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 78,
+									"line": 77,
 									"character": 14
 								}
 							],
@@ -19865,7 +19989,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 84,
+									"line": 83,
 									"character": 12
 								}
 							],
@@ -19882,7 +20006,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 85,
+									"line": 84,
 									"character": 15
 								}
 							],
@@ -19899,7 +20023,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 81,
+									"line": 80,
 									"character": 12
 								}
 							],
@@ -19916,7 +20040,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 83,
+									"line": 82,
 									"character": 12
 								}
 							],
@@ -19933,7 +20057,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 86,
+									"line": 85,
 									"character": 18
 								}
 							],
@@ -19950,7 +20074,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 87,
+									"line": 86,
 									"character": 24
 								}
 							],
@@ -19967,7 +20091,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 88,
+									"line": 87,
 									"character": 15
 								}
 							],
@@ -19984,7 +20108,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 89,
+									"line": 88,
 									"character": 18
 								}
 							],
@@ -20001,7 +20125,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 90,
+									"line": 89,
 									"character": 18
 								}
 							],
@@ -20018,7 +20142,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 91,
+									"line": 90,
 									"character": 18
 								}
 							],
@@ -20035,7 +20159,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 92,
+									"line": 91,
 									"character": 16
 								}
 							],
@@ -20052,7 +20176,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 94,
+									"line": 93,
 									"character": 16
 								}
 							],
@@ -20069,7 +20193,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 93,
+									"line": 92,
 									"character": 16
 								}
 							],
@@ -20086,7 +20210,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 82,
+									"line": 81,
 									"character": 12
 								}
 							],
@@ -20103,7 +20227,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 95,
+									"line": 94,
 									"character": 13
 								}
 							],
@@ -20120,7 +20244,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 96,
+									"line": 95,
 									"character": 13
 								}
 							],
@@ -20137,7 +20261,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 97,
+									"line": 96,
 									"character": 14
 								}
 							],
@@ -20154,7 +20278,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 99,
+									"line": 98,
 									"character": 14
 								}
 							],
@@ -20171,7 +20295,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 100,
+									"line": 99,
 									"character": 18
 								}
 							],
@@ -20188,7 +20312,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 101,
+									"line": 100,
 									"character": 19
 								}
 							],
@@ -20205,7 +20329,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 102,
+									"line": 101,
 									"character": 22
 								}
 							],
@@ -20222,7 +20346,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 103,
+									"line": 102,
 									"character": 25
 								}
 							],
@@ -20239,7 +20363,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 104,
+									"line": 103,
 									"character": 27
 								}
 							],
@@ -20256,7 +20380,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 98,
+									"line": 97,
 									"character": 14
 								}
 							],
@@ -20273,7 +20397,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 105,
+									"line": 104,
 									"character": 15
 								}
 							],
@@ -20290,7 +20414,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 75,
+									"line": 74,
 									"character": 6
 								}
 							],
@@ -20307,7 +20431,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 76,
+									"line": 75,
 									"character": 8
 								}
 							],
@@ -20324,7 +20448,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 106,
+									"line": 105,
 									"character": 12
 								}
 							],
@@ -20341,7 +20465,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 107,
+									"line": 106,
 									"character": 11
 								}
 							],
@@ -20358,7 +20482,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 109,
+									"line": 108,
 									"character": 18
 								}
 							],
@@ -20375,7 +20499,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 108,
+									"line": 107,
 									"character": 17
 								}
 							],
@@ -20392,7 +20516,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 110,
+									"line": 109,
 									"character": 15
 								}
 							],
@@ -20446,7 +20570,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 74,
+							"line": 73,
 							"character": 33
 						}
 					]
@@ -20471,7 +20595,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 24,
+									"line": 23,
 									"character": 14
 								}
 							],
@@ -20488,7 +20612,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 21,
+									"line": 20,
 									"character": 6
 								}
 							],
@@ -20505,7 +20629,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 22,
+									"line": 21,
 									"character": 6
 								}
 							],
@@ -20522,7 +20646,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 23,
+									"line": 22,
 									"character": 12
 								}
 							],
@@ -20544,7 +20668,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 20,
+							"line": 19,
 							"character": 40
 						}
 					]
@@ -20567,7 +20691,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 500,
+									"line": 499,
 									"character": 2
 								}
 							],
@@ -20585,7 +20709,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 498,
+									"line": 497,
 									"character": 3
 								}
 							],
@@ -20604,7 +20728,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 499,
+									"line": 498,
 									"character": 2
 								}
 							],
@@ -20624,7 +20748,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 501,
+									"line": 500,
 									"character": 2
 								}
 							],
@@ -20649,7 +20773,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 497,
+							"line": 496,
 							"character": 21
 						}
 					],
@@ -20723,7 +20847,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 507,
+									"line": 506,
 									"character": 2
 								}
 							],
@@ -20746,7 +20870,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 505,
+									"line": 504,
 									"character": 3
 								}
 							],
@@ -20770,7 +20894,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 499,
+									"line": 498,
 									"character": 2
 								}
 							],
@@ -20793,7 +20917,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 509,
+									"line": 508,
 									"character": 9
 								}
 							],
@@ -20811,7 +20935,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 506,
+									"line": 505,
 									"character": 2
 								}
 							],
@@ -20847,7 +20971,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 504,
+							"line": 503,
 							"character": 21
 						}
 					],
@@ -20879,7 +21003,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 128,
+									"line": 127,
 									"character": 2
 								}
 							],
@@ -20904,7 +21028,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 126,
+									"line": 125,
 									"character": 3
 								}
 							],
@@ -20930,7 +21054,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 499,
+									"line": 498,
 									"character": 2
 								}
 							],
@@ -20955,7 +21079,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 127,
+									"line": 126,
 									"character": 2
 								}
 							],
@@ -20985,7 +21109,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 125,
+							"line": 124,
 							"character": 26
 						}
 					],
@@ -21017,7 +21141,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 134,
+									"line": 133,
 									"character": 2
 								}
 							],
@@ -21042,7 +21166,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 132,
+									"line": 131,
 									"character": 3
 								}
 							],
@@ -21068,7 +21192,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 499,
+									"line": 498,
 									"character": 2
 								}
 							],
@@ -21093,7 +21217,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 133,
+									"line": 132,
 									"character": 2
 								}
 							],
@@ -21123,7 +21247,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 131,
+							"line": 130,
 							"character": 29
 						}
 					],
@@ -21155,7 +21279,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 120,
+									"line": 119,
 									"character": 2
 								}
 							],
@@ -21181,7 +21305,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 121,
+													"line": 120,
 													"character": 20
 												}
 											],
@@ -21203,7 +21327,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 120,
+											"line": 119,
 											"character": 3
 										}
 									]
@@ -21226,7 +21350,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 118,
+									"line": 117,
 									"character": 3
 								}
 							],
@@ -21252,7 +21376,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 499,
+									"line": 498,
 									"character": 2
 								}
 							],
@@ -21277,7 +21401,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 119,
+									"line": 118,
 									"character": 2
 								}
 							],
@@ -21307,7 +21431,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 117,
+							"line": 116,
 							"character": 29
 						}
 					],
@@ -21339,7 +21463,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 446,
+									"line": 445,
 									"character": 2
 								}
 							],
@@ -21366,7 +21490,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 456,
+													"line": 455,
 													"character": 9
 												}
 											],
@@ -21387,7 +21511,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 453,
+													"line": 452,
 													"character": 17
 												}
 											],
@@ -21408,7 +21532,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 455,
+													"line": 454,
 													"character": 10
 												}
 											],
@@ -21429,7 +21553,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 448,
+													"line": 447,
 													"character": 12
 												}
 											],
@@ -21455,7 +21579,7 @@
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 450,
+																	"line": 449,
 																	"character": 11
 																}
 															],
@@ -21475,7 +21599,7 @@
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 449,
+																	"line": 448,
 																	"character": 6
 																}
 															],
@@ -21495,7 +21619,7 @@
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 451,
+																	"line": 450,
 																	"character": 9
 																}
 															],
@@ -21519,7 +21643,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 448,
+															"line": 447,
 															"character": 13
 														}
 													]
@@ -21538,7 +21662,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 454,
+													"line": 453,
 													"character": 7
 												}
 											],
@@ -21567,7 +21691,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 447,
+													"line": 446,
 													"character": 7
 												}
 											],
@@ -21594,7 +21718,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 446,
+											"line": 445,
 											"character": 3
 										}
 									]
@@ -21612,7 +21736,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 445,
+									"line": 444,
 									"character": 3
 								}
 							],
@@ -21636,7 +21760,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 444,
+							"line": 443,
 							"character": 25
 						}
 					]
@@ -21661,7 +21785,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 140,
+									"line": 139,
 									"character": 2
 								}
 							],
@@ -21686,7 +21810,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 138,
+									"line": 137,
 									"character": 3
 								}
 							],
@@ -21712,7 +21836,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 499,
+									"line": 498,
 									"character": 2
 								}
 							],
@@ -21737,7 +21861,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 139,
+									"line": 138,
 									"character": 2
 								}
 							],
@@ -21767,7 +21891,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 137,
+							"line": 136,
 							"character": 31
 						}
 					],
@@ -21795,7 +21919,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 522,
+									"line": 521,
 									"character": 11
 								}
 							],
@@ -21815,7 +21939,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 524,
+									"line": 523,
 									"character": 9
 								}
 							],
@@ -21833,7 +21957,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 523,
+									"line": 522,
 									"character": 11
 								}
 							],
@@ -21857,7 +21981,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 521,
+							"line": 520,
 							"character": 35
 						}
 					]
@@ -21882,7 +22006,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 492,
+									"line": 491,
 									"character": 2
 								}
 							],
@@ -21903,7 +22027,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 491,
+									"line": 490,
 									"character": 3
 								}
 							],
@@ -21927,7 +22051,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 490,
+							"line": 489,
 							"character": 31
 						}
 					]
@@ -21952,7 +22076,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 531,
+									"line": 530,
 									"character": 4
 								}
 							],
@@ -21972,7 +22096,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 529,
+									"line": 528,
 									"character": 5
 								}
 							],
@@ -22001,7 +22125,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 528,
+									"line": 527,
 									"character": 6
 								}
 							],
@@ -22030,7 +22154,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 530,
+									"line": 529,
 									"character": 7
 								}
 							],
@@ -22076,7 +22200,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 527,
+							"line": 526,
 							"character": 35
 						}
 					]
@@ -22101,7 +22225,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 146,
+									"line": 145,
 									"character": 2
 								}
 							],
@@ -22126,7 +22250,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 144,
+									"line": 143,
 									"character": 3
 								}
 							],
@@ -22152,7 +22276,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 499,
+									"line": 498,
 									"character": 2
 								}
 							],
@@ -22177,7 +22301,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 145,
+									"line": 144,
 									"character": 2
 								}
 							],
@@ -22207,7 +22331,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 143,
+							"line": 142,
 							"character": 26
 						}
 					],
@@ -22239,7 +22363,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 471,
+									"line": 470,
 									"character": 2
 								}
 							],
@@ -22265,7 +22389,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 472,
+													"line": 471,
 													"character": 10
 												}
 											],
@@ -22297,7 +22421,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 474,
+													"line": 473,
 													"character": 7
 												}
 											],
@@ -22318,7 +22442,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 475,
+													"line": 474,
 													"character": 11
 												}
 											],
@@ -22339,7 +22463,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 473,
+													"line": 472,
 													"character": 7
 												}
 											],
@@ -22360,7 +22484,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 476,
+													"line": 475,
 													"character": 10
 												}
 											],
@@ -22398,7 +22522,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 471,
+											"line": 470,
 											"character": 3
 										}
 									]
@@ -22416,7 +22540,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 470,
+									"line": 469,
 									"character": 3
 								}
 							],
@@ -22440,7 +22564,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 469,
+							"line": 468,
 							"character": 36
 						}
 					]
@@ -22465,7 +22589,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 462,
+									"line": 461,
 									"character": 2
 								}
 							],
@@ -22491,7 +22615,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 465,
+													"line": 464,
 													"character": 5
 												}
 											],
@@ -22511,7 +22635,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 464,
+													"line": 463,
 													"character": 12
 												}
 											],
@@ -22531,7 +22655,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 463,
+													"line": 462,
 													"character": 7
 												}
 											],
@@ -22555,7 +22679,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 462,
+											"line": 461,
 											"character": 3
 										}
 									]
@@ -22573,7 +22697,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 461,
+									"line": 460,
 									"character": 3
 								}
 							],
@@ -22597,7 +22721,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 460,
+							"line": 459,
 							"character": 23
 						}
 					]
@@ -22622,7 +22746,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 548,
+									"line": 547,
 									"character": 4
 								}
 							],
@@ -22642,7 +22766,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 547,
+									"line": 546,
 									"character": 11
 								}
 							],
@@ -22665,7 +22789,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 546,
+							"line": 545,
 							"character": 31
 						}
 					]
@@ -22690,7 +22814,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 482,
+									"line": 481,
 									"character": 2
 								}
 							],
@@ -22716,7 +22840,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 484,
+													"line": 483,
 													"character": 12
 												}
 											],
@@ -22745,7 +22869,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 483,
+													"line": 482,
 													"character": 10
 												}
 											],
@@ -22765,7 +22889,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 486,
+													"line": 485,
 													"character": 11
 												}
 											],
@@ -22785,7 +22909,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 485,
+													"line": 484,
 													"character": 11
 												}
 											],
@@ -22810,7 +22934,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 482,
+											"line": 481,
 											"character": 3
 										}
 									]
@@ -22828,7 +22952,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 481,
+									"line": 480,
 									"character": 3
 								}
 							],
@@ -22852,7 +22976,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 480,
+							"line": 479,
 							"character": 33
 						}
 					]
@@ -22877,7 +23001,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 441,
+									"line": 440,
 									"character": 2
 								}
 							],
@@ -22897,7 +23021,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 440,
+									"line": 439,
 									"character": 3
 								}
 							],
@@ -22921,7 +23045,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 439,
+							"line": 438,
 							"character": 28
 						}
 					]
@@ -22947,7 +23071,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 543,
+									"line": 542,
 									"character": 8
 								}
 							],
@@ -22968,7 +23092,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 540,
+									"line": 539,
 									"character": 16
 								}
 							],
@@ -22989,7 +23113,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 542,
+									"line": 541,
 									"character": 9
 								}
 							],
@@ -23010,7 +23134,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 535,
+									"line": 534,
 									"character": 11
 								}
 							],
@@ -23036,7 +23160,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 537,
+													"line": 536,
 													"character": 10
 												}
 											],
@@ -23056,7 +23180,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 536,
+													"line": 535,
 													"character": 5
 												}
 											],
@@ -23076,7 +23200,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 538,
+													"line": 537,
 													"character": 8
 												}
 											],
@@ -23100,7 +23224,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 535,
+											"line": 534,
 											"character": 12
 										}
 									]
@@ -23119,7 +23243,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 541,
+									"line": 540,
 									"character": 6
 								}
 							],
@@ -23154,7 +23278,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 534,
+							"line": 533,
 							"character": 27
 						}
 					]
@@ -23179,7 +23303,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 593,
+									"line": 592,
 									"character": 11
 								}
 							],
@@ -23199,7 +23323,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 594,
+									"line": 593,
 									"character": 15
 								}
 							],
@@ -23219,7 +23343,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 596,
+									"line": 595,
 									"character": 8
 								}
 							],
@@ -23259,7 +23383,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 596,
+															"line": 595,
 															"character": 39
 														}
 													],
@@ -23290,7 +23414,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 596,
+													"line": 595,
 													"character": 31
 												}
 											]
@@ -23310,7 +23434,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 595,
+									"line": 594,
 									"character": 6
 								}
 							],
@@ -23335,7 +23459,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 592,
+							"line": 591,
 							"character": 29
 						}
 					]
@@ -23354,7 +23478,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 179,
+							"line": 178,
 							"character": 33
 						}
 					],
@@ -23404,7 +23528,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 191,
+							"line": 190,
 							"character": 37
 						}
 					],
@@ -23439,7 +23563,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 193,
+													"line": 192,
 													"character": 11
 												}
 											],
@@ -23460,7 +23584,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 192,
+													"line": 191,
 													"character": 9
 												}
 											],
@@ -23481,7 +23605,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 194,
+													"line": 193,
 													"character": 19
 												}
 											],
@@ -23505,7 +23629,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 191,
+											"line": 190,
 											"character": 86
 										}
 									]
@@ -23526,7 +23650,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 403,
+							"line": 402,
 							"character": 27
 						}
 					],
@@ -23705,7 +23829,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 212,
+							"line": 211,
 							"character": 31
 						}
 					],
@@ -23750,7 +23874,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 213,
+													"line": 212,
 													"character": 9
 												}
 											],
@@ -23770,7 +23894,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 214,
+													"line": 213,
 													"character": 5
 												}
 											],
@@ -23793,7 +23917,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 212,
+											"line": 211,
 											"character": 107
 										}
 									]
@@ -23817,7 +23941,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 201,
+							"line": 200,
 							"character": 31
 						}
 					],
@@ -23862,7 +23986,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 206,
+							"line": 205,
 							"character": 31
 						}
 					],
@@ -23897,7 +24021,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 220,
+							"line": 219,
 							"character": 37
 						}
 					],
@@ -23932,7 +24056,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 222,
+													"line": 221,
 													"character": 7
 												}
 											],
@@ -23955,7 +24079,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 221,
+													"line": 220,
 													"character": 9
 												}
 											],
@@ -23978,7 +24102,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 220,
+											"line": 219,
 											"character": 86
 										}
 									]
@@ -24002,7 +24126,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 228,
+							"line": 227,
 							"character": 43
 						}
 					],
@@ -24037,7 +24161,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 228,
+													"line": 227,
 													"character": 109
 												}
 											],
@@ -24059,7 +24183,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 228,
+											"line": 227,
 											"character": 98
 										}
 									]
@@ -24083,7 +24207,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 233,
+							"line": 232,
 							"character": 34
 						}
 					],
@@ -24125,7 +24249,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 233,
+															"line": 232,
 															"character": 112
 														}
 													],
@@ -24147,7 +24271,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 233,
+													"line": 232,
 													"character": 101
 												}
 											]
@@ -24173,7 +24297,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 238,
+							"line": 237,
 							"character": 37
 						}
 					],
@@ -24208,7 +24332,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 239,
+													"line": 238,
 													"character": 9
 												}
 											],
@@ -24228,7 +24352,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 240,
+													"line": 239,
 													"character": 5
 												}
 											],
@@ -24251,7 +24375,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 238,
+											"line": 237,
 											"character": 86
 										}
 									]
@@ -24275,7 +24399,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 246,
+							"line": 245,
 							"character": 37
 						}
 					],
@@ -24310,7 +24434,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 247,
+													"line": 246,
 													"character": 9
 												}
 											],
@@ -24331,7 +24455,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 250,
+													"line": 249,
 													"character": 5
 												}
 											],
@@ -24361,7 +24485,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 251,
+													"line": 250,
 													"character": 14
 												}
 											],
@@ -24390,7 +24514,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 248,
+													"line": 247,
 													"character": 6
 												}
 											],
@@ -24413,7 +24537,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 249,
+													"line": 248,
 													"character": 5
 												}
 											],
@@ -24439,7 +24563,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 246,
+											"line": 245,
 											"character": 86
 										}
 									]
@@ -24463,7 +24587,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 257,
+							"line": 256,
 							"character": 37
 						}
 					],
@@ -24499,7 +24623,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 261,
+													"line": 260,
 													"character": 12
 												}
 											],
@@ -24520,7 +24644,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 260,
+													"line": 259,
 													"character": 12
 												}
 											],
@@ -24540,7 +24664,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 258,
+													"line": 257,
 													"character": 9
 												}
 											],
@@ -24560,7 +24684,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 259,
+													"line": 258,
 													"character": 8
 												}
 											],
@@ -24584,7 +24708,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 264,
+													"line": 263,
 													"character": 6
 												}
 											],
@@ -24605,7 +24729,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 262,
+													"line": 261,
 													"character": 10
 												}
 											],
@@ -24629,7 +24753,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 263,
+													"line": 262,
 													"character": 10
 												}
 											],
@@ -24660,7 +24784,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 257,
+											"line": 256,
 											"character": 86
 										}
 									]
@@ -24684,7 +24808,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 271,
+							"line": 270,
 							"character": 35
 						}
 					],
@@ -24729,7 +24853,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 272,
+													"line": 271,
 													"character": 9
 												}
 											],
@@ -24749,7 +24873,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 273,
+													"line": 272,
 													"character": 5
 												}
 											],
@@ -24772,7 +24896,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 271,
+											"line": 270,
 											"character": 116
 										}
 									]
@@ -24796,7 +24920,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 279,
+							"line": 278,
 							"character": 35
 						}
 					],
@@ -24831,7 +24955,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 280,
+													"line": 279,
 													"character": 9
 												}
 											],
@@ -24851,7 +24975,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 281,
+													"line": 280,
 													"character": 8
 												}
 											],
@@ -24874,7 +24998,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 279,
+											"line": 278,
 											"character": 82
 										}
 									]
@@ -24898,7 +25022,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 287,
+							"line": 286,
 							"character": 32
 						}
 					],
@@ -24933,7 +25057,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 288,
+													"line": 287,
 													"character": 11
 												}
 											],
@@ -24953,7 +25077,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 289,
+													"line": 288,
 													"character": 5
 												}
 											],
@@ -24973,7 +25097,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 290,
+													"line": 289,
 													"character": 11
 												}
 											],
@@ -24994,7 +25118,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 291,
+													"line": 290,
 													"character": 9
 												}
 											],
@@ -25015,7 +25139,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 292,
+													"line": 291,
 													"character": 8
 												}
 											],
@@ -25035,7 +25159,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 293,
+													"line": 292,
 													"character": 8
 												}
 											],
@@ -25055,7 +25179,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 294,
+													"line": 293,
 													"character": 9
 												}
 											],
@@ -25076,7 +25200,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 295,
+													"line": 294,
 													"character": 12
 												}
 											],
@@ -25097,7 +25221,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 296,
+													"line": 295,
 													"character": 17
 												}
 											],
@@ -25117,7 +25241,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 297,
+													"line": 296,
 													"character": 10
 												}
 											],
@@ -25137,7 +25261,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 298,
+													"line": 297,
 													"character": 5
 												}
 											],
@@ -25169,7 +25293,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 287,
+											"line": 286,
 											"character": 76
 										}
 									]
@@ -25193,7 +25317,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 304,
+							"line": 303,
 							"character": 32
 						}
 					],
@@ -25228,7 +25352,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 305,
+													"line": 304,
 													"character": 11
 												}
 											],
@@ -25248,7 +25372,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 307,
+													"line": 306,
 													"character": 5
 												}
 											],
@@ -25269,7 +25393,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 306,
+													"line": 305,
 													"character": 9
 												}
 											],
@@ -25293,7 +25417,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 304,
+											"line": 303,
 											"character": 76
 										}
 									]
@@ -25314,7 +25438,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 585,
+							"line": 584,
 							"character": 32
 						}
 					],
@@ -25343,7 +25467,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 586,
+													"line": 585,
 													"character": 5
 												}
 											],
@@ -25386,7 +25510,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 585,
+											"line": 584,
 											"character": 34
 										}
 									]
@@ -25414,7 +25538,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 589,
+													"line": 588,
 													"character": 5
 												}
 											],
@@ -25435,7 +25559,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 588,
+													"line": 587,
 													"character": 5
 												}
 											],
@@ -25459,7 +25583,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 587,
+											"line": 586,
 											"character": 3
 										}
 									]
@@ -25482,7 +25606,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 313,
+							"line": 312,
 							"character": 33
 						}
 					],
@@ -25517,7 +25641,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 332,
+							"line": 331,
 							"character": 37
 						}
 					],
@@ -25552,7 +25676,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 334,
+													"line": 333,
 													"character": 11
 												}
 											],
@@ -25573,7 +25697,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 335,
+													"line": 334,
 													"character": 9
 												}
 											],
@@ -25593,7 +25717,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 333,
+													"line": 332,
 													"character": 4
 												}
 											],
@@ -25620,7 +25744,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 332,
+											"line": 331,
 											"character": 86
 										}
 									]
@@ -25644,7 +25768,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 323,
+							"line": 322,
 							"character": 33
 						}
 					],
@@ -25679,7 +25803,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 325,
+													"line": 324,
 													"character": 11
 												}
 											],
@@ -25700,7 +25824,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 326,
+													"line": 325,
 													"character": 9
 												}
 											],
@@ -25720,7 +25844,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 324,
+													"line": 323,
 													"character": 3
 												}
 											],
@@ -25744,7 +25868,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 323,
+											"line": 322,
 											"character": 78
 										}
 									]
@@ -25768,7 +25892,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 341,
+							"line": 340,
 							"character": 38
 						}
 					],
@@ -25799,7 +25923,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 351,
+							"line": 350,
 							"character": 44
 						}
 					],
@@ -25835,7 +25959,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 346,
+							"line": 345,
 							"character": 41
 						}
 					],
@@ -25870,7 +25994,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 356,
+							"line": 355,
 							"character": 46
 						}
 					],
@@ -25913,7 +26037,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 357,
+															"line": 356,
 															"character": 6
 														}
 													],
@@ -25935,7 +26059,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 356,
+													"line": 355,
 													"character": 132
 												}
 											]
@@ -25961,7 +26085,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 318,
+							"line": 317,
 							"character": 33
 						}
 					],
@@ -25999,7 +26123,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 318,
+															"line": 317,
 															"character": 103
 														}
 													],
@@ -26019,7 +26143,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 318,
+															"line": 317,
 															"character": 83
 														}
 													],
@@ -26042,7 +26166,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 318,
+													"line": 317,
 													"character": 78
 												}
 											]
@@ -26078,7 +26202,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 363,
+							"line": 362,
 							"character": 34
 						}
 					],
@@ -26133,7 +26257,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 512,
+							"line": 511,
 							"character": 17
 						}
 					],
@@ -26171,7 +26295,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 514,
+															"line": 513,
 															"character": 11
 														}
 													],
@@ -26189,7 +26313,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 518,
+															"line": 517,
 															"character": 6
 														}
 													],
@@ -26209,7 +26333,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 516,
+															"line": 515,
 															"character": 9
 														}
 													],
@@ -26229,7 +26353,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 517,
+															"line": 516,
 															"character": 7
 														}
 													],
@@ -26247,7 +26371,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 515,
+															"line": 514,
 															"character": 11
 														}
 													],
@@ -26265,7 +26389,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 513,
+															"line": 512,
 															"character": 8
 														}
 													],
@@ -26292,7 +26416,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 512,
+													"line": 511,
 													"character": 93
 												}
 											]
@@ -26327,7 +26451,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 155,
+							"line": 154,
 							"character": 25
 						}
 					],
@@ -26362,7 +26486,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 163,
+													"line": 162,
 													"character": 7
 												}
 											],
@@ -26385,7 +26509,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 162,
+													"line": 161,
 													"character": 10
 												}
 											],
@@ -26404,7 +26528,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 161,
+													"line": 160,
 													"character": 17
 												}
 											],
@@ -26423,7 +26547,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 160,
+													"line": 159,
 													"character": 14
 												}
 											],
@@ -26442,7 +26566,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 159,
+													"line": 158,
 													"character": 11
 												}
 											],
@@ -26463,7 +26587,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 164,
+													"line": 163,
 													"character": 6
 												}
 											],
@@ -26492,7 +26616,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 158,
+													"line": 157,
 													"character": 5
 												}
 											],
@@ -26512,7 +26636,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 157,
+													"line": 156,
 													"character": 14
 												}
 											],
@@ -26529,7 +26653,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 157,
+															"line": 156,
 															"character": 15
 														}
 													]
@@ -26547,7 +26671,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 156,
+													"line": 155,
 													"character": 2
 												}
 											],
@@ -26577,7 +26701,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 155,
+											"line": 154,
 											"character": 62
 										}
 									]
@@ -26601,7 +26725,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 170,
+							"line": 169,
 							"character": 27
 						}
 					],
@@ -26633,7 +26757,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 114,
+							"line": 113,
 							"character": 23
 						}
 					],
@@ -26687,7 +26811,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 368,
+							"line": 367,
 							"character": 31
 						}
 					],
@@ -26722,7 +26846,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 369,
+													"line": 368,
 													"character": 11
 												}
 											],
@@ -26743,7 +26867,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 370,
+													"line": 369,
 													"character": 9
 												}
 											],
@@ -26764,7 +26888,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 373,
+													"line": 372,
 													"character": 7
 												}
 											],
@@ -26784,7 +26908,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 372,
+													"line": 371,
 													"character": 10
 												}
 											],
@@ -26804,7 +26928,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 371,
+													"line": 370,
 													"character": 8
 												}
 											],
@@ -26830,7 +26954,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 368,
+											"line": 367,
 											"character": 74
 										}
 									]
@@ -26854,7 +26978,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 379,
+							"line": 378,
 							"character": 30
 						}
 					],
@@ -26889,7 +27013,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 389,
+							"line": 388,
 							"character": 37
 						}
 					],
@@ -26924,7 +27048,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 392,
+													"line": 391,
 													"character": 9
 												}
 											],
@@ -26944,7 +27068,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 391,
+													"line": 390,
 													"character": 9
 												}
 											],
@@ -26964,7 +27088,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 390,
+													"line": 389,
 													"character": 6
 												}
 											],
@@ -26988,7 +27112,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 389,
+											"line": 388,
 											"character": 86
 										}
 									]
@@ -27012,7 +27136,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 384,
+							"line": 383,
 							"character": 36
 						}
 					],
@@ -27044,7 +27168,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 113,
+							"line": 112,
 							"character": 21
 						}
 					],
@@ -27098,7 +27222,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 398,
+							"line": 397,
 							"character": 34
 						}
 					],
@@ -27133,7 +27257,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 400,
+													"line": 399,
 													"character": 11
 												}
 											],
@@ -27153,7 +27277,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 399,
+													"line": 398,
 													"character": 9
 												}
 											],
@@ -27176,7 +27300,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 398,
+											"line": 397,
 											"character": 80
 										}
 									]
@@ -27197,7 +27321,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 554,
+							"line": 553,
 							"character": 32
 						}
 					],
@@ -27226,7 +27350,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 556,
+													"line": 555,
 													"character": 5
 												}
 											],
@@ -27246,7 +27370,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 555,
+													"line": 554,
 													"character": 5
 												}
 											],
@@ -27270,7 +27394,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 554,
+											"line": 553,
 											"character": 34
 										}
 									]
@@ -27298,7 +27422,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 559,
+													"line": 558,
 													"character": 5
 												}
 											],
@@ -27319,7 +27443,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 558,
+													"line": 557,
 													"character": 5
 												}
 											],
@@ -27343,7 +27467,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 557,
+											"line": 556,
 											"character": 3
 										}
 									]
@@ -27371,7 +27495,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 561,
+													"line": 560,
 													"character": 5
 												}
 											],
@@ -27404,7 +27528,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 560,
+											"line": 559,
 											"character": 3
 										}
 									]
@@ -27432,7 +27556,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 564,
+													"line": 563,
 													"character": 5
 												}
 											],
@@ -27452,7 +27576,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 563,
+													"line": 562,
 													"character": 5
 												}
 											],
@@ -27476,7 +27600,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 562,
+											"line": 561,
 											"character": 3
 										}
 									]
@@ -27504,7 +27628,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 567,
+													"line": 566,
 													"character": 5
 												}
 											],
@@ -27525,7 +27649,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 566,
+													"line": 565,
 													"character": 5
 												}
 											],
@@ -27549,7 +27673,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 565,
+											"line": 564,
 											"character": 3
 										}
 									]
@@ -27577,7 +27701,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 570,
+													"line": 569,
 													"character": 5
 												}
 											],
@@ -27603,7 +27727,7 @@
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 571,
+																	"line": 570,
 																	"character": 6
 																}
 															],
@@ -27623,7 +27747,7 @@
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 572,
+																	"line": 571,
 																	"character": 8
 																}
 															],
@@ -27646,7 +27770,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 570,
+															"line": 569,
 															"character": 6
 														}
 													]
@@ -27664,7 +27788,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 569,
+													"line": 568,
 													"character": 5
 												}
 											],
@@ -27688,7 +27812,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 568,
+											"line": 567,
 											"character": 3
 										}
 									]
@@ -27716,7 +27840,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 576,
+													"line": 575,
 													"character": 5
 												}
 											],
@@ -27737,7 +27861,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 575,
+													"line": 574,
 													"character": 5
 												}
 											],
@@ -27761,7 +27885,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 574,
+											"line": 573,
 											"character": 3
 										}
 									]
@@ -27789,7 +27913,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 579,
+													"line": 578,
 													"character": 5
 												}
 											],
@@ -27810,7 +27934,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 578,
+													"line": 577,
 													"character": 5
 												}
 											],
@@ -27834,7 +27958,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 577,
+											"line": 576,
 											"character": 3
 										}
 									]
@@ -27862,7 +27986,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 582,
+													"line": 581,
 													"character": 5
 												}
 											],
@@ -27883,7 +28007,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 581,
+													"line": 580,
 													"character": 5
 												}
 											],
@@ -27907,7 +28031,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 580,
+											"line": 579,
 											"character": 3
 										}
 									]
